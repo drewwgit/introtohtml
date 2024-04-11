@@ -1,0 +1,78 @@
+html {
+    background-color: white;
+    height: 100%;
+}
+
+body {
+    min-height: 100%; 
+    margin: 0; 
+}
+
+#wrapper {
+    min-height: 400px;
+    margin-bottom: 10px;
+    position: relative; 
+    padding-top: 60px;
+    box-sizing: border-box; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    background-color: black;
+    width: 100%; 
+
+}
+
+nav {
+    background-color:cornflowerblue;
+    height: 60px; 
+    width: 100%;
+    position:fixed; 
+    top: 0;
+    left: 0; 
+    z-index: 99; 
+}
+
+#navLeft, #navRight{
+    position: absolute; 
+    height: 60px; 
+}
+
+#navLeft{
+    left: 0; 
+}
+#navRight {
+    right: 0;
+}
+
+.picProfile {
+    background-color: cornflowerblue;
+    width: 300px; 
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
+    flex-basis: 300px;
+    padding-left: 15px;
+}
+
+p{
+    text-align: center;
+}
+.picProfile > img {
+    height: 300px; 
+}
+
+#navMenu {
+    background-color: white;
+    height: 100%; 
+    width: 60px; 
+}
+@media screen and (min-width: 600px) {
+    #navMenu {
+        display: none;
+    }
+
+    .picProfile{
+        color: white;
+    }
+}
+

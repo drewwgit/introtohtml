@@ -1,0 +1,38 @@
+html {
+    background-color: cornflowerblue;
+    height: 100%;
+}
+
+body {
+    min-height: 100%; 
+    margin: 5; 
+    padding: 5px 5px 5px 5px;
+}
+
+div { 
+    padding: 30px;
+    margin: 10px;
+}
+
+h2 {
+    padding: 5px 5px 5px 5px;
+}
+
+h4{
+    padding: 5px 5px 5px 5px;
+}
+
+img {
+    padding: 5px 5px 5px 5px;
+
+}
+
+li {
+    padding: 2px 3px 2px 3px;
+}
+
+section{
+    background-color:paleturquoise;
+    border: 5px black solid; 
+    padding: 15px;
+}
