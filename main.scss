@@ -1,0 +1,34 @@
+
+$mainColor: aqua;
+
+html {
+    background-color: $mainColor;  
+    height: 100%;
+}
+
+body {
+    height: 100%; 
+    margin: 0; 
+}
+
+h1 {
+    color: deepskyblue;
+}
+
+h2{
+    color: black;
+    align-items: right;
+}
+
+
+a{
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    padding-top: 50px;
+}
+
+p{
+    font-style: italic;
+}
+

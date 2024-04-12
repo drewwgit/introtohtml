@@ -1,0 +1,17 @@
+$bookColor: aqua;
+
+.picProfile {
+    background-color: $bookColor;
+    width: 300px; 
+    flex-grow: 1;
+    align-items: center;
+    flex-basis: 300px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.picProfile > img {
+    height: 200px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

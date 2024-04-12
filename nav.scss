@@ -1,0 +1,19 @@
+$footNavColor: purple;
+$navHeight: 120px;
+nav {
+    background-color: $footNavColor;
+    height: $navHeight; 
+    width: 100%;
+    top: 0;
+    left: 0; 
+    z-index: 99; 
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    background-color: $footNavColor;
+    text-align: center;
+    height: 80px; 
+    width: 100%;
+}
