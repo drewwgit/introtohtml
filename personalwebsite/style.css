@@ -5,7 +5,13 @@ html {
 
 body {
     margin: 0; 
-    max-width: 1000px; 
+    max-width: 1000%; 
+    align-items: center;
+}
+
+h1 {
+    font-family: "MuseoModerno", sans-serif;
+    font-size: xx-large;
 }
 
 nav {
@@ -18,7 +24,7 @@ nav {
     align-items: center;
     background-color: whitesmoke; 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-right: 10px;
 }
 
@@ -41,10 +47,11 @@ img {
 }
 
 nav > h1 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
     color: black;
-    align-items: center;
+    left: 0;
+    top: 0;
+    display: flex;
+    font-size: x-large;
 }
 
 section {
@@ -59,6 +66,9 @@ section {
     justify-content: space-around;
 }
 
+.box {
+ align-items: center;   
+}
 
 p {
     display: flex;
@@ -68,6 +78,7 @@ p {
     padding-right: 15%;
     padding-left: 15%;
     font-style: italic;
+    font-size: 25px;
 }
 
 h2 {
@@ -98,4 +109,21 @@ footer > img {
     text-align: center;
     padding: 50%;
 }
+
+/* when the screen gets to a smaller size that the header can not fit, makes the nav only the links and changes the background color  */
+
+@media only screen and (max-width: 566px) {
+    html {
+      background-color:white;
+    }
+
+    nav > h1 
+    {
+        display: none;
+    }
+
+    section {
+        background-color: white;
+    }
+  }
 
